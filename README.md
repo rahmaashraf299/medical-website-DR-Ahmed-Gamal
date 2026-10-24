@@ -52,33 +52,49 @@ websiteahmed/
 - Git (for cloning)
 
 ## Installation & Setup
+
+Clone the repository:
+
 ```bash
-# Clone the repository (replace <your-username> with your GitHub username)
-git clone https://github.com/<your-username>/websiteahmed.git
+git clone https://github.com/rahmaashraf299/medical-website-DR-Ahmed-Gamal.git
+```
 
-# Enter the project directory
-cd websiteahmed
+Navigate to the project directory:
 
-# Install dependencies
+```bash
+cd medical-website-DR-Ahmed-Gamal
+```
+
+Install dependencies:
+
+```bash
 npm install
 ```
 
 ## Running the Application
-- Development server (hot‑module reloading):
+
+Start the development server:
+
 ```bash
 npm run dev
 ```
-  Opens http://localhost:5173 in your browser.
-- Production build:
+
+Open http://localhost:5173 in your browser.
+
+Build the project for production:
+
 ```bash
 npm run build
 ```
-  Outputs compiled files to the `dist/` directory.
-- Preview the production build:
+
+Preview the production build locally:
+
 ```bash
 npm run preview
 ```
-- Lint the code:
+
+Run the linter:
+
 ```bash
 npm run lint
 ```
